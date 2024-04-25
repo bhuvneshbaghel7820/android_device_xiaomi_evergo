@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_evergo.mk
+    $(LOCAL_DIR)/aosp_evergo.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_evergo-user \
-    omni_evergo-userdebug \
-    omni_evergo-eng
+    aosp_evergo-user \
+    aosp_evergo-userdebug \
+    aosp_evergo-eng
