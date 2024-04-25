@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_evergo.mk
+    $(LOCAL_DIR)/twrp_evergo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_evergo-user \
-    aosp_evergo-userdebug \
-    aosp_evergo-eng
+    twrp_evergo-user \
+    twrp_evergo-userdebug \
+    twrp_evergo-eng
