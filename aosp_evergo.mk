@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Inherit from evergo device
 $(call inherit-product, device/xiaomi/evergo/device.mk)
 
 PRODUCT_DEVICE := evergo
-PRODUCT_NAME := omni_evergo
+PRODUCT_NAME := aosp_evergo
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := evergo
 PRODUCT_MANUFACTURER := xiaomi
