@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_evergo-user
-add_lunch_combo omni_evergo-userdebug
-add_lunch_combo omni_evergo-eng
+add_lunch_combo aosp_evergo-user
+add_lunch_combo aosp_evergo-userdebug
+add_lunch_combo aosp_evergo-eng
